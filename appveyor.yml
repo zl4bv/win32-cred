@@ -1,0 +1,24 @@
+version: "master-{build}"
+
+os: Windows Server 2012 R2
+platform:
+  - x64
+
+skip_tags: true
+
+branches:
+  only:
+    - master
+
+install:
+  - echo %PATH%
+  - ruby --version
+  - gem --version
+  - gem install bundler --quiet --no-ri --no-rdoc
+  - bundler --version
+
+build_script:
+  - bundle install
+
+test_script:
+  - bundle exec rake

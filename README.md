@@ -1,6 +1,6 @@
 # Win32::Cred
 
-[![Build Status](https://travis-ci.org/zl4bv/win32-cred.svg?branch=master)](https://travis-ci.org/zl4bv/win32-cred)
+[![Build status](https://ci.appveyor.com/api/projects/status/u014rd3epwq4jwu0?svg=true)](https://ci.appveyor.com/project/zl4bv/win32-cred)
 
 Adds an interface to the Windows Credential API
 
